@@ -150,3 +150,5 @@ gameCounter++;
 // ++gameCounter;
 
 // console.log(gameCounter);
+
+// read about prefix & postfix in MDN
