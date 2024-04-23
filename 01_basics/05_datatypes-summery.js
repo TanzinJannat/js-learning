@@ -10,7 +10,7 @@ let userEmail; userEmail = undefined;
 const id = Symbol('123');
 const anotherId = Symbol('123');
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 //Reference(Non-primitive)
 
@@ -28,4 +28,25 @@ const myFunction = function(){
     console.log("Hello world!");
 }
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
+
+let myYoutubename = "hiteshchoudharydotcom";
+
+let anotherName = myYoutubename
+anotherName = "chaiorcode"
+
+console.log(anotherName);
+console.log(myYoutubename);
+
+let userOne = {
+    email:"Tanzin@google.com",
+
+    upi:"user1@gpl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "jannattanzin323@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
