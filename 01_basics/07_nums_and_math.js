@@ -32,5 +32,8 @@ console.log(Math);
 // console.log(Math.max(4, 3, 6, 8));
 
 
-console.log(Math.random());
-console.log((Math.random()*10) + 1);
+// console.log(Math.random());
+// console.log((Math.random()*10) + 1);
+
+// console.log(Math.PI)
+// console.log(Math.pow(10, 2));
