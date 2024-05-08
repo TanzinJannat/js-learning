@@ -37,3 +37,8 @@ console.log(Math);
 
 // console.log(Math.PI)
 // console.log(Math.pow(10, 2));
+
+let myDate = new Date();
+console.log(myDate.toString());
+console.log(myDate.toDateString());
+console.log(myDate.toLocaleString());
